@@ -1,5 +1,5 @@
  cd /Users/moussasow/Documents/code/jenkins/node-jenkins-app-example
  git pull
  npm install
- pm2 restart all
+ ./node_modules/pm2/bin/pm2 restart all 
  exit
