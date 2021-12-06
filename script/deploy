@@ -1,3 +1,5 @@
-git pull
-npm install
-npm start
+ cd ~/node-jenkins-app-example
+ git pull
+ npm install — production
+ pm2 restart all
+ exit
