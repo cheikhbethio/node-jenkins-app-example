@@ -21,7 +21,7 @@ pipeline {
       steps {
         git([
             url: 'https://github.com/cheikhbethio/node-jenkins-app-example.git', 
-            branch: 'github-jenkins-local-nodejs',
+            branch: 'node-pipeline-script',
             credentialsId: 'added from credentials'
             ])
       }
