@@ -1,5 +1,5 @@
- cd /Users/moussasow/Documents/code/jenkins/test-node-jdeploy
+ cd node-jenkins-app-example
  git pull
- npm install
+ npm install — production
  pm2 restart all
  exit
