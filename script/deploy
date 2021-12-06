@@ -1,5 +1,5 @@
- cd node-jenkins-app-example
+ cd /Users/moussasow/Documents/code/jenkins/node-jenkins-app-example
  git pull
- npm install — production
+ npm install
  pm2 restart all
  exit
