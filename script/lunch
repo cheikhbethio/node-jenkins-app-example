@@ -6,11 +6,3 @@
  exit
 
 
-
-#  tar -czf node-jenkins-app-example.tgz node-jenkins-app-example
- 
-
-#  pull 
-#  test
-#  pack
-#  nexus
