@@ -17,6 +17,7 @@ pipeline {
      
     stage('install deps') {
       steps {
+        sh 'npm config set registry https://registry.npmjs.org'
         sh 'npm install'
       }
     }  
