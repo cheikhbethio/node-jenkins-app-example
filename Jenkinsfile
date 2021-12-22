@@ -19,8 +19,7 @@ pipeline {
       steps {
         sh 'rm -rf package-lock.json node_modules'
         sh 'npm cache clean --force'
-        sh 'npm config set registry https://registry.npmjs.org'
-        sh 'npm install'
+        sh 'npm install --f'
       }
     }  
     
