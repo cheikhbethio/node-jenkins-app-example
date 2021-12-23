@@ -9,7 +9,7 @@ pipeline {
       steps {
         git([
             url: 'https://github.com/cheikhbethio/node-jenkins-app-example.git', 
-            branch: 'trigger-build-PR',
+            branch: '**',
             credentialsId: 'a1641d36-10de-4cdf-9f52-268fb996e301'
             ])
       }
