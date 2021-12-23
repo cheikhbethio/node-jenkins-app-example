@@ -27,7 +27,6 @@ pipeline {
         sh './script/test'
       }
     }
-    
             
     stage('deploy') {
       steps {
