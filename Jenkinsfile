@@ -4,7 +4,7 @@ pipeline {
   tools {nodejs "node 16"}
     
   stages {
-
+  
     stage('Git') {
       steps {
         git([
@@ -27,9 +27,12 @@ pipeline {
         sh './script/test'
       }
     }
+    
             
     stage('deploy') {
       steps {
+        sh 'pwd && ls'
+        sh 'cat ./script/build'
         sh './script/build'
       }
     }
