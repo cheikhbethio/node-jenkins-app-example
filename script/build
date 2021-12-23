@@ -1,0 +1,16 @@
+#!/bin/sh
+ cd /Users/moussasow/Documents/code/jenkins/node-jenkins-app-example
+ git pull
+ npm install
+ ./node_modules/pm2/bin/pm2 start app.js 
+ exit
+
+
+
+#  tar -czf node-jenkins-app-example.tgz node-jenkins-app-example
+ 
+
+#  pull 
+#  test
+#  pack
+#  nexus

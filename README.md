@@ -1,7 +1,17 @@
-https://medium.com/@mosheezderman/how-to-set-up-ci-cd-pipeline-for-a-node-js-app-with-jenkins-c51581cc783c
+# Intall Pulgin Github Pull Request Builder
+
+# Dans system configuration
+
+- connection avec github srever api with default url and personnel token generated in github
+- test the connection
+
+- connection of Github Pull Request Builder to git api also wthi the same credentials
+- test connection
+- Click advanced option and enable automatic PR build trigger and add the
 
 
-Deployer une appi node js depuis git par jenkins
-jenkins est en local
-le deploiement se fait sur ma machine
-on utilise ngRok pour creer des liens public vers ma machine (ce ci est indispensable car les webhook exigent des des url public et non des localhots)
+# In github create à hook for PR
+https://jenkin-server:port/ghprbhook/
+selet iindividual events and Pull Request checkbox 
+
+
